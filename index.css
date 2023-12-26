@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Smythe&display=swap');
+
+body {
+    margin: 0;
+    font-family: Smythe;
+} 
+
+.header{
+    margin: 0 auto;
+    max-width: 600px;
+    height: 167px;
+    background: url('assets/header_image.jpeg');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    padding: 30px;
+}
+
+#title, #subtitle{
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 5px;    
+}
+
+#subtitle{
+    font-size: 15px;
+    line-height: 24px;    
+    letter-spacing: 1px;
+}
+
+#title{
+    font-size: 35px;
+}
+
+.items{
+    border-bottom: 2px solid #DEDEDE;
+    max-width: 550px;
+    margin: 25px auto;
+    display: flex;
+}
+
+.divEmoji p{
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+.item-name{
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.item-ingredients{
+    color: #8B8B8B;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.item-price{
+    color: #000000;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.item-details{
+    margin-left: 15px;
+}
+
+.addToCartButton{
+   width: 50px;
+   height: 50px;
+   border: 2px solid #DEDEDE;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 50px;
+   margin-left: auto;
+   margin-right: 20px;
+}
+
+.cart{
+    /* border: 2px solid black; */
+    max-width: 550px;
+    margin: 25px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.cart p{
+    font-size: 25px;
+}
+
+#your-order{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cart-items{
+    display: flex;
+    align-items: center;
+}
+
+.cart-items button{
+    border: none;
+    /* background-color: white; */
+    font-size: 12px;
+    border-radius: 10px;
+    margin: 0;
+    background-color: white;
+    color: #BBBBBB;
+    font-weight: bold;
+}
+
+.cart-items p{
+    margin: 20px;
+}
+
+#cart-item-price{
+    margin-left: auto;
+}
+
+.cart-items-div{
+    max-width: 550px;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid #393333;
+}
+
+.confirm-order{
+    width: 550px;
+    max-width: 550px;
+    margin: 0 auto;
+    display: flex;
+    font-size: 25px;
+}
+
+#total-price{
+    margin-left: 20px;
+}
+
+#calc-price{
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+#confirm-order{
+    background-color: #16DB99;
+    border: none;
+    padding: 20px 100px;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.orders-container{
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.modal{
+    display: flex;
+    flex-direction: column;
+    max-width: 550px;
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 400px;
+    background-color: wheat;
+    /* display: none; */
+}
+
+.hide-modal{
+    display: none;
+}
+
+.modal p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-left: auto; 
+    margin-right: auto;
+    font-size: 20px;
+}
+
+#input-form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    padding: 15px;
+    width: 400px;
+    max-width: 400px;
+    border-radius: 3px;
+    border: 2px solid #757575;
+    margin: 10px auto;
+}
+
+input::placeholder {
+    color: #757575;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#submit-btn{
+    max-width: 400px;
+    /* background-color: #16DB99; */
+    background-color: darkgreen;
+    border: none;
+    margin: 10px auto;
+    width: 400px;
+    padding: 20px 120px;
+    border-radius: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.confirmation-message{
+    border: 2px solid #000000;
+    height: 100px;
+    margin: 10px auto 10px auto;
+    width: 550px;
+    max-width: 550px;
+    background-color: #ECFDF5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #000000;
+    border-radius: 3px;
+}
+
+.greeting-message{
+    font-size: 30px;
+    color: #065F46;
+}
+
